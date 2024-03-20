@@ -1,61 +1,92 @@
 [
     {
-        "id": 1,
-        "usuario": "usuario1@example.com",
-        "contenido": "¡Hola mundo!",
-        "adjuntos": [
-            "url_adjunto1",
-            "url_adjunto2"
-        ],
-        "usuarios_mencionados": [
-            "usuario2@example.com"
-        ],
-        "fecha_creacion": "2024-03-20T10:00:00Z",
-        "hashtags": [
-            "#saludo",
-            "#bienvenida"
-        ],
-        "likes": [
-            "usuario2@example.com",
-            "usuario3@example.com"
-        ],
-        "retweets": [
-            "usuario2@example.com"
-        ],
-        "comentarios": [
-            {
-                "id": 1,
-                "contenido": "¡Qué buen saludo!",
-                "usuario": "usuario2@example.com",
-                "fecha_creacion": "2024-03-20T10:05:00Z"
-            }
-        ]
+      "id": 1,
+      "usuario": {
+        "correo": "usuario1@example.com",
+        "nombre": "Usuario Uno"
+      },
+      "contenido": "¡Hola mundo!",
+      "adjuntos": [
+        "url_adjunto1",
+        "url_adjunto2"
+      ],
+      "usuarios_mencionados": [
+        {
+          "correo": "usuario2@example.com",
+          "nombre": "Usuario Dos"
+        }
+      ],
+      "fecha_creacion": "2024-03-20T10:00:00Z",
+      "hashtags": [
+        "#saludo",
+        "#bienvenida"
+      ],
+      "likes": [
+        {
+          "correo": "usuario2@example.com",
+          "nombre": "Usuario Dos"
+        },
+        {
+          "correo": "usuario3@example.com",
+          "nombre": "Usuario Tres"
+        }
+      ],
+      "retweets": [
+        {
+          "correo": "usuario2@example.com",
+          "nombre": "Usuario Dos"
+        }
+      ],
+      "comentarios": [
+        {
+          "id": 1,
+          "contenido": "¡Qué buen saludo!",
+          "usuario": {
+            "correo": "usuario2@example.com",
+            "nombre": "Usuario Dos"
+          },
+          "fecha_creacion": "2024-03-20T10:05:00Z"
+        }
+      ]
     },
     {
-        "id": 2,
-        "usuario": "usuario2@example.com",
-        "contenido": "¡Feliz viaje!",
-        "adjuntos": [
-            "url_adjunto3"
-        ],
-        "usuarios_mencionados": [],
-        "fecha_creacion": "2024-03-21T12:00:00Z",
-        "hashtags": [
-            "#viaje",
-            "#vacaciones"
-        ],
-        "likes": [
-            "usuario3@example.com",
-            "usuario4@example.com"
-        ],
-        "retweets": [],
-        "comentarios": [
-            {
-                "id": 2,
-                "contenido": "¡Buen viaje!",
-                "usuario": " usuario3@example.com ",
-                "fecha_creacion": "2024-03-21T12:05:00Z"
-            }
-        ]
+      "id": 2,
+      "usuario": {
+        "correo": "usuario2@example.com",
+        "nombre": "Usuario Dos"
+      },
+      "contenido": "¡Feliz viaje!",
+      "adjuntos": [
+        "url_adjunto3"
+      ],
+      "usuarios_mencionados": [],
+      "fecha_creacion": "2024-03-21T12:00:00Z",
+      "hashtags": [
+        "#viaje",
+        "#vacaciones"
+      ],
+      "likes": [
+        {
+          "correo": "usuario3@example.com",
+          "nombre": "Usuario Tres"
+        },
+        {
+          "correo": "usuario4@example.com",
+          "nombre": "Usuario Cuatro"
+        }
+      ],
+      "retweets": [],
+      "comentarios": [
+        {
+          "id": 2,
+          "contenido": "¡Buen viaje!",
+          "usuario": {
+            "correo": "usuario3@example.com",
+            "nombre": "Usuario Tres"
+          },
+          "fecha_creacion": "2024-03-21T12:05:00Z"
+        }
+      ]
     }
-]
+  ]
+  
