@@ -6,7 +6,7 @@ usuarios
 - nombre
 - foto_perfil
 - biografia
-- informacion_Contacto
+- informacion_contacto
 - seguidores[]
 - seguidos[]
 - privacidad
@@ -32,11 +32,7 @@ mensajes
 - receptor
 - adjuntos[]
 
-hashtags
-- id (identificador)
-- nombre
-- descripcion
-- tweets[]
+
 
 momentos_destacados
 - id (identificador)
