@@ -27,7 +27,7 @@ tweets
 mensajes
 - id (identificador)
 - contenido
-- fechaenvio
+- fecha_envio
 - emisor
 - receptor
 - adjuntos[]
