@@ -1,0 +1,13 @@
+Lista de colecciones
+
+usuarios 
+- correo (identificador)
+- nombre
+- foto_perfil
+- biografia
+- informacion_Contacto
+- seguidores[]
+- seguidos[]
+- privacidad
+- momentos_destacados
+
