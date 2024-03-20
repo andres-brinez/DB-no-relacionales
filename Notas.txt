@@ -11,3 +11,15 @@ usuarios
 - privacidad
 - momentos_destacados
 
+tweets
+- id (identificador)
+- usuario
+- contenido
+- adjuntos[]
+- usuariosmencionados[]
+- fechacreacion
+- hashtags[]
+- likes[]
+- retweets
+- comentarios[]
+
