@@ -1,49 +1,67 @@
-
 [
+  {
+    "correo": "usuario1@example.com",
+    "password": "contraseña1",
+    "nombre": "Usuario Uno",
+    "foto_perfil": "url_foto_perfil1",
+    "biografia": "¡Bienvenido a mi perfil!",
+    "informacion_contacto": "usuario1@example.com",
+    "seguidores": [
+      "usuario2@example.com",
+      "usuario3@example.com"
+    ],
+    "seguidos": [
+      "usuario4@example.com",
+      "usuario5@example.com"
+    ],
+    "privacidad": "público",
+    "momentos_destacados": [
       {
-        "correo": "usuario1@example.com",
-        "password": "contraseña1",
-        "nombre": "Usuario Uno",
-        "foto_perfil": "url_foto_perfil1",
-        "biografia": "¡Bienvenido a mi perfil!",
-        "informacion_contacto": "usuario1@example.com",
-        "seguidores": ["usuario2@example.com", "usuario3@example.com"],
-        "seguidos": ["usuario4@example.com", "usuario5@example.com"],
-        "privacidad": "público",
-        "momentos_destacados": [
-          {
-            "id": 1,
-            "nombre": "Mis momentos",
-            "descripcion": "Momentos destacados en mi perfil",
-            "tweets": [1, 3, 5]
-          }
-          ,
-            {
-                "id": 2,
-                "nombre": "Momentos de viaje",
-                "descripcion": "Mis momentos de viaje",
-                "tweets": [2, 4]
-            }
+        "id": 1,
+        "nombre": "Mis momentos",
+        "descripcion": "Momentos destacados en mi perfil",
+        "tweets": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Momentos de viaje",
+        "descripcion": "Mis momentos de viaje",
+        "tweets": [
+          2,
+          4
         ]
       }
-      ,
+    ]
+  },
+  {
+    "correo": "usuario2@example.com",
+    "password": "contraseña2",
+    "nombre": "Usuario Dos",
+    "foto_perfil": "url_foto_perfil2",
+    "biografia": "¡Hola a todos!",
+    "informacion_contacto": "usuario2@example.com",
+    "seguidores": [
+      "usuario1@example.com",
+      "usuario3@example.com"
+    ],
+    "seguidos": [
+      "usuario4@example.com"
+    ],
+    "privacidad": "privado",
+    "momentos_destacados": [
       {
-        "correo": "usuario2@example.com",
-        "password": "contraseña2",
-        "nombre": "Usuario Dos",
-        "foto_perfil": "url_foto_perfil2",
-        "biografia": "¡Hola a todos!",
-        "informacion_contacto": "usuario2@example.com",
-        "seguidores": ["usuario1@example.com", "usuario3@example.com"],
-        "seguidos": ["usuario4@example.com"],
-        "privacidad": "privado",
-        "momentos_destacados": [
-          {
-            "id": 2,
-            "nombre": "Momentos de viaje",
-            "descripcion": "Mis momentos de viaje",
-            "tweets": [2, 4]
-          }
+        "id": 2,
+        "nombre": "Momentos de viaje",
+        "descripcion": "Mis momentos de viaje",
+        "tweets": [
+          2,
+          4
         ]
-    }
+      }
+    ]
+  }
 ]
