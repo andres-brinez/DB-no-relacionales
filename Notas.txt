@@ -33,9 +33,9 @@ mensajes
 - adjuntos[]
 
 
-
 momentos_destacados
 - id (identificador)
+- usuario
 - nombre
 - descripcion
 - tweets[]
@@ -44,5 +44,6 @@ listas
 - id (identificador)
 - nombre
 - descripcion
+- tema 
 - usuarios[]
 
