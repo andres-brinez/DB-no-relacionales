@@ -1,0 +1,92 @@
+[
+  {
+    "correo": "usuario1@example.com",
+    "password": "contraseña1",
+    "nombre": "Usuario Uno",
+    "foto_perfil": "url_foto_perfil1",
+    "biografia": "¡Bienvenido a mi perfil!",
+    "informacion_contacto": {
+      "direccion": "Calle Falsa 123",
+      "telefono": "+123456789",
+      "email_alternativo": "usuario1_alt@example.com"
+    },
+    "seguidores": [
+      {
+        "correo": "seguidor1@example.com",
+        "nombre": "Seguidor Uno"
+      },
+      {
+        "correo": "seguidor2@example.com",
+        "nombre": "Seguidor Dos"
+      }
+    ],
+    "seguidos": [
+      {
+        "correo": "seguido1@example.com",
+        "nombre": "Seguido Uno"
+      }
+    ],
+    "privacidad": "público",
+    "momentos_destacados": [
+      {
+        "id": 1,
+        "nombre": "Mis momentos",
+        "descripcion": "Momentos destacados en mi perfil",
+        "tweets": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Momentos de viaje",
+        "descripcion": "Mis momentos de viaje",
+        "tweets": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "correo": "usuario2@example.com",
+    "password": "contraseña2",
+    "nombre": "Usuario Dos",
+    "foto_perfil": "url_foto_perfil2",
+    "biografia": "¡Hola a todos!",
+    "informacion_contacto": {
+      "direccion": "Avenida Principal 456",
+      "telefono": "+987654321",
+      "email_alternativo": "usuario2_alt@example.com"
+    },
+    "seguidores": [
+      {
+        "correo": "seguidor3@example.com",
+        "nombre": "Seguidor Tres"
+      },
+      {
+        "correo": "seguidor4@example.com",
+        "nombre": "Seguidor Cuatro"
+      }
+    ],
+    "seguidos": [
+      {
+        "correo": "seguido2@example.com",
+        "nombre": "Seguido Dos"
+      }
+    ],
+    "privacidad": "privado",
+    "momentos_destacados": [
+      {
+        "id": 2,
+        "nombre": "Momentos de viaje",
+        "descripcion": "Mis momentos de viaje",
+        "tweets": [
+          2,
+          4
+        ]
+      }
+    ]
+  }
+]
