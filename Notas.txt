@@ -36,3 +36,11 @@ hashtags
 - nombre
 - descripcion
 - tweets[]
+
+momentos_destacados
+- id (identificador)
+- nombre
+- descripcion
+- tweets[]
+
+
