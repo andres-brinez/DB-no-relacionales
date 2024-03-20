@@ -30,3 +30,9 @@ mensajes
 - emisor
 - receptor
 - adjuntos[]
+
+hashtags
+- id (identificador)
+- nombre
+- descripcion
+- tweets[]
