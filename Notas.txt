@@ -16,8 +16,8 @@ tweets
 - usuario
 - contenido
 - adjuntos[]
-- usuariosmencionados[]
-- fechacreacion
+- usuarios_mencionados[]
+- fecha_creacion
 - hashtags[]
 - likes[]
 - retweets
