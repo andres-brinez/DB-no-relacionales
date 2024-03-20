@@ -1,18 +1,39 @@
- [
+[
+  {
+    "id": 1,
+    "nombre": "Lista de Tecnología",
+    "descripcion": "Usuarios interesados en temas de tecnología",
+    "tema": "tecnologia",
+    "usuarios": [
       {
-        "id": 1,
-        "nombre": "Lista de Tecnología",
-        "descripcion": "Usuarios interesados en temas de tecnología",
-        "tema": "tecnologia",
-        "usuarios": ["usuario1@example.com", "usuario2@example.com"]
+        "correo": "usuario1@example.com",
+        "nombre": "Usuario Uno"
       },
       {
-        "id": 2,
-        "nombre": "Lista de Viajes",
-        "descripcion": "Usuarios que comparten experiencias de viajes",
-        "tema": "viajes",
-        "usuarios": ["usuario3@example.com", "usuario4@example.com"]
+        "correo": "usuario2@example.com",
+        "nombre": "Usuario Dos"
       }
     ]
-  
-  
+    
+  },
+  {
+    "id": 2,
+    "nombre": "Lista de Viajes",
+    "descripcion": "Usuarios que comparten experiencias de viajes",
+    "tema": "viajes",
+    "usuario": {
+      "correo": "usuario3@example.com",
+      "nombre": "Usuario Tres"
+    },
+    "usuarios": [
+      {
+        "correo": "usuario3@example.com",
+        "nombre": "Usuario Tres"
+      },
+      {
+        "correo": "usuario4@example.com",
+        "nombre": "Usuario Cuatro"
+      }
+    ]
+  }
+]
