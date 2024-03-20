@@ -1,20 +1,33 @@
 [
     {
-        "id": 1,
-        "contenido": "¡Hola amigo!",
-        "fecha_envio": "2024-03-22T15:00:00Z",
-        "emisor": "usuario1@example.com",
-        "receptor": "usuario2@example.com",
-        "adjuntos": []
+      "id": 1,
+      "contenido": "¡Hola amigo!",
+      "fecha_envio": "2024-03-22T15:00:00Z",
+      "emisor": {
+        "correo": "usuario1@example.com",
+        "nombre": "Usuario Uno"
+      },
+      "receptor": {
+        "correo": "usuario2@example.com",
+        "nombre": "Usuario Dos"
+      },
+      "adjuntos": []
     },
     {
-        "id": 2,
-        "contenido": "¡Hola!",
-        "fecha_envio": "2024-03-22T15:00:00Z",
-        "emisor": "usuario2@example.com",
-        "receptor": "usuario1@example.com",
-        "adjuntos": [
-            "emoji1.png"
-        ]
+      "id": 2,
+      "contenido": "¡Hola!",
+      "fecha_envio": "2024-03-22T15:00:00Z",
+      "emisor": {
+        "correo": "usuario2@example.com",
+        "nombre": "Usuario Dos"
+      },
+      "receptor": {
+        "correo": "usuario1@example.com",
+        "nombre": "Usuario Uno"
+      },
+      "adjuntos": [
+        "emoji1.png"
+      ]
     }
-]
+  ]
+  
