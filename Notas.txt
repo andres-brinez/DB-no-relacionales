@@ -23,3 +23,10 @@ tweets
 - retweets
 - comentarios[]
 
+mensajes
+- id (identificador)
+- contenido
+- fechaenvio
+- emisor
+- receptor
+- adjuntos[]
