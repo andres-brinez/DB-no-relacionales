@@ -43,4 +43,9 @@ momentos_destacados
 - descripcion
 - tweets[]
 
+listas
+- id (identificador)
+- nombre
+- descripcion
+- usuarios[]
 
