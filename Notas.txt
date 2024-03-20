@@ -2,6 +2,7 @@ Lista de colecciones
 
 usuarios 
 - correo (identificador)
+- password
 - nombre
 - foto_perfil
 - biografia
