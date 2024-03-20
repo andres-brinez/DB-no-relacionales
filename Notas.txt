@@ -1,4 +1,4 @@
-Lista de colecciones
+Lista de colecciones Básicas 
 
 usuarios 
 - correo (identificador)
